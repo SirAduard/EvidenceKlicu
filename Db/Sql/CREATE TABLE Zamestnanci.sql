@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Zamestnanci]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+	[Jmeno] NVARCHAR(64) NOT NULL,
+	[Prijmeni] NVARCHAR(64) NOT NULL,
+	[Zkratka] NVARCHAR(2) NOT NULL
+)
